@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+* {
+  font-family: "Abel", sans-serif;
+}
+
+h1 {
+  color: rgb(75, 88, 75);
+  margin-top: 2em;
+  font-size: 4em;
+  margin-left: 5em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+#albumsDiv {
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+}
+
+.albumImg {
+  margin: 3em 6em 0 6em;
+}
+
+img {
+  width: 250px;
+  display: flex;
+  margin-bottom: 1em;
+}
+
+/* span {
+  margin-top: 3em;
+} */

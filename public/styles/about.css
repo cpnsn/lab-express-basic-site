@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+* {
+  font-family: "Abel", sans-serif;
+}
+
+h1 {
+  color: rgb(75, 88, 75);
+  margin-top: 2em;
+  font-size: 4em;
+  margin-left: 5em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+div {
+  font-size: 1.5em;
+  margin: 3em 13em 0 13em;
+  text-align: justify;
+  line-height: 2;
+}
